@@ -33,6 +33,7 @@ class LambdaDemo extends Component {
         <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Add to Cart"}</button>
         <br />
         <button onClick={href="https://www.outbrain.com"}>{loading ? "Loading..." : "Same URL as register"}</button>
+        <button onclick="window.location.href='https://w3docs.com';"> Click Here </button>
       </p>
     )
   }
