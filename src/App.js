@@ -31,7 +31,8 @@ class LambdaDemo extends Component {
         <br />
         <br />
         <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Add to Cart"}</button>
-
+        <br />
+        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Same URL as register"}</button>
       </p>
     )
   }
