@@ -37,9 +37,11 @@ class LambdaDemo extends Component {
           <a href="https://www.outbrain.com">
             <button>Click Here</button>
           </a>
+          <br />
+          <a href="https://www.outbrain.com">
+            <button>Click Here same url</button>
+          </a>
         </div>
-        <br />
-        <button onClick={"window.location.href='https://www.outbrain.com';"}>{loading ? "Loading..." : "Same URL as register"}</button>
       </p>
     )
   }
